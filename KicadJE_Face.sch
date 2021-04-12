@@ -400,7 +400,7 @@ U 1 1 607676B5
 P 4850 1450
 F 0 "P1" H 4850 785 50  0000 C CNN
 F 1 "Doepfer_Power_16pin" H 4850 876 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical_SMD" H 4850 1450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical_SMD" H 4850 1450 50  0001 C CNN
 F 3 "DOCUMENTATION" H 4850 1450 50  0001 C CNN
 	1    4850 1450
 	-1   0    0    1   
@@ -705,7 +705,7 @@ U 1 1 6079C8D0
 P 1025 3250
 F 0 "J1" H 1133 3631 50  0000 C CNN
 F 1 "LED 1-6" H 1133 3540 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right" H 1025 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right" H 1025 3250 50  0001 C CNN
 F 3 "~" H 1025 3250 50  0001 C CNN
 	1    1025 3250
 	1    0    0    -1  
@@ -755,45 +755,45 @@ Connection ~ 2500 3550
 Wire Wire Line
 	2500 3550 2500 3300
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole_Pad H2
 U 1 1 607B089D
-P 1550 2250
-F 0 "H2" H 1650 2296 50  0000 L CNN
-F 1 "OLED" H 1650 2205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1550 2250 50  0001 C CNN
-F 3 "~" H 1550 2250 50  0001 C CNN
-	1    1550 2250
+P 1225 2425
+F 0 "H2" H 1325 2471 50  0000 L CNN
+F 1 "OLED" H 1325 2380 50  0000 L CNN
+F 2 "AJ:M2.7_Plated" H 1225 2425 50  0001 C CNN
+F 3 "~" H 1225 2425 50  0001 C CNN
+	1    1225 2425
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole_Pad H3
 U 1 1 607B1218
 P 1550 2425
 F 0 "H3" H 1650 2471 50  0000 L CNN
 F 1 "OLED" H 1650 2380 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1550 2425 50  0001 C CNN
+F 2 "AJ:M2.7_Plated" H 1550 2425 50  0001 C CNN
 F 3 "~" H 1550 2425 50  0001 C CNN
 	1    1550 2425
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole_Pad H4
 U 1 1 607B1C0F
-P 1950 2250
-F 0 "H4" H 2050 2296 50  0000 L CNN
-F 1 "OLED" H 2050 2205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1950 2250 50  0001 C CNN
-F 3 "~" H 1950 2250 50  0001 C CNN
-	1    1950 2250
+P 2325 2425
+F 0 "H4" H 2425 2471 50  0000 L CNN
+F 1 "OLED" H 2425 2380 50  0000 L CNN
+F 2 "AJ:M2.7_Plated" H 2325 2425 50  0001 C CNN
+F 3 "~" H 2325 2425 50  0001 C CNN
+	1    2325 2425
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L Mechanical:MountingHole_Pad H5
 U 1 1 607B1EF1
 P 1950 2425
 F 0 "H5" H 2050 2471 50  0000 L CNN
 F 1 "OLED" H 2050 2380 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1950 2425 50  0001 C CNN
+F 2 "AJ:M2.7_Plated" H 1950 2425 50  0001 C CNN
 F 3 "~" H 1950 2425 50  0001 C CNN
 	1    1950 2425
 	1    0    0    -1  
@@ -896,4 +896,26 @@ Wire Wire Line
 	1250 4050 1250 3550
 Wire Wire Line
 	1250 3550 1225 3550
+Connection ~ 1475 2525
+Wire Wire Line
+	1475 2525 1225 2525
+Wire Wire Line
+	1475 2525 1550 2525
+$Comp
+L power:GND #PWR0101
+U 1 1 6082BB1D
+P 1475 2525
+F 0 "#PWR0101" H 1475 2275 50  0001 C CNN
+F 1 "GND" H 1480 2352 50  0000 C CNN
+F 2 "" H 1475 2525 50  0001 C CNN
+F 3 "" H 1475 2525 50  0001 C CNN
+	1    1475 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2525 1950 2525
+Connection ~ 1550 2525
+Connection ~ 1950 2525
+Wire Wire Line
+	1950 2525 2325 2525
 $EndSCHEMATC
