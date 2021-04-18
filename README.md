@@ -1,7 +1,7 @@
 # KicadJE_OLED_Face
 Faceplate for uP that uses I2C SSD1306
 # Purpose
-
+Faceplate for uProcessor controlled eurorack units with an SSD1306 OLED display, two rotary dials/pots, two audio inputs, two cv inputs and two outputs.
 ## Board 1
 Adjustment:
 
