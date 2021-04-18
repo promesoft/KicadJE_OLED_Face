@@ -6,17 +6,13 @@ Faceplate for uProcessor controlled eurorack units with an SSD1306 OLED display,
 Adjustment:
 
 Gate Input
-TTL ?
-0-10V ?
+
 
 CV Input
-0-10V 
 
 Input Audio 
-+/- 10V DC coupled
 
 Output Audio  
-+/- 10V DC coupled
 
 
 # Status - 
