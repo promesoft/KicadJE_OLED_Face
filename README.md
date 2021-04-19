@@ -15,15 +15,15 @@ Input Audio
 Output Audio  
 
 
-# Status - 
+# Status - In the mail
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch |  |
-| | pcb |  |
-| | gerber |  |
-| production  |   |  |
-|  | produced |  |
+| create material  | sch | OK |
+| | pcb |  | OK
+| | gerber |  | OK
+| production  |   |  | OK
+|  | produced |  | OK
 |  | delivered |  |
 ## Preliminary validation
 | Test  | Detail | Status |
