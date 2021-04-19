@@ -20,11 +20,11 @@ Output Audio
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | OK |
-| | pcb | OK
-| | gerber  | OK
-| production    |  |  
-|  | produced  | OK 
-|  | delivered |  In the mail
+| | pcb |OK
+| | gerber |OK
+| production |  |  
+|  | produced  |OK 
+|  | delivered |In the mail
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
