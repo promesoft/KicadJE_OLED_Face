@@ -29,6 +29,7 @@ Output Audio
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | ok |
+| Mechanical Inspection | | ok - does not match I/O and controls with earlier boards|
 | Initial Technical Test | Board 1 |  |
 | Initial Product Test | Board1 |  |
 
