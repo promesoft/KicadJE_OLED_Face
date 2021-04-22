@@ -15,7 +15,7 @@ Input Audio
 Output Audio  
 
 
-# Status - In the mail
+# Status - Received
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -24,11 +24,11 @@ Output Audio
 | | gerber |OK
 | production |  |  
 |  | produced  |OK 
-|  | delivered |In the mail
+|  | delivered |OK
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | | ok/not ok |
+| Initial Inspection | | ok |
 | Initial Technical Test | Board 1 |  |
 | Initial Product Test | Board1 |  |
 
