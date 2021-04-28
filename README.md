@@ -48,6 +48,7 @@ Output Audio
 ### 
 
 # Pictures
+![](KicadJE_Face.png)
 ![](KicadJE_Face_Back.png)
 
 # Schematic
